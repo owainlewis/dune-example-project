@@ -1,4 +1,10 @@
+PROJECT=hello-dune
+
 all: clean build
+
+.PHONY: setup-workspace
+setup-workspace:
+	./scripts/workspace.sh
 
 .PHONY: build
 build:
