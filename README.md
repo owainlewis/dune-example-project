@@ -9,5 +9,9 @@ OSX
 ```
 brew install opam
 
+opam init
+
+eval $(opam env)
+
 opam install dune
 ```
